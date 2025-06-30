@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/StasBeep/fullstack.git"
+    "url": "git+https://github.com/StasBeep/server-express-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/StasBeep/fullstack/issues"
+    "url": "https://github.com/StasBeep/server-express-backend/issues"
   },
-  "homepage": "https://github.com/StasBeep/fullstack#readme",
+  "homepage": "https://github.com/StasBeep/server-express-backend#readme",
   "dependencies": {
     "express": "^5.1.0"
   },
