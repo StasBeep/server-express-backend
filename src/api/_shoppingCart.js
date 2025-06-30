@@ -5,7 +5,7 @@ const data = require('../../data/shopping.json');
 
 import { updateJsonFile } from "../helpers/_updateJsonFiles.js";
 
-export const dataApiTodo = (app) => { 
+export const dataShoppingCart = (app) => { 
     app.get('/api/cart/', (req, res) => {
         return res.json(data.cart);
     });
