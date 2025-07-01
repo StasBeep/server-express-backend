@@ -3,10 +3,8 @@ const require = createRequire(import.meta.url);
 
 const data = require('../../data/shopping.json');
 
-import { updateJsonFile } from "../helpers/_updateJsonFiles.js";
-
 export const dataShoppingCart = (app) => { 
-    app.get('/api/cart/', (req, res) => {
+    app.get('/api/cart', (req, res) => {
         return res.json(data.cart);
     });
 }
